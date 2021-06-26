@@ -807,8 +807,8 @@ footer .fot_container p {
 .copytext {
   width: inherit;
   text-align: center;
-  color: #fff;
-  background-color: #181818;
+  color: #181818;
+  background-color: #fff;
   font-family: "Open Sans", sans-serif;
   padding: 8px 100px;
 }
