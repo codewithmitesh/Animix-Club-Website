@@ -1,0 +1,154 @@
+@media only screen and (max-width: 1140px) {
+  .type-effect {
+    font-size: 12px;
+  }
+  .navbar {
+    height: 353px;
+    flex-direction: column;
+    transition: all 0.7s ease-in-out;
+  }
+  .navlist {
+    flex-direction: column;
+  }
+  .ani_image {
+    height: 42%;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav {
+    height: 53px;
+  }
+  .v-class {
+    opacity: 0;
+  }
+  .info {
+    padding: 10px;
+  }
+  .info div p {
+    padding: 10px;
+  }
+  .imgbox{
+    width: 135px;
+    height: 133px;
+  } 
+  .Mem-Inf h3{
+    margin: 14px 0 10px;
+  }.Each-Member{
+      width: 25%;
+  }
+
+
+
+  footer {
+    padding: 36px 19px;
+  }
+}
+
+@media (max-width: 790px) {
+  footer {
+    height: 100%;
+  }
+  footer .fot_container {
+    flex-wrap: initial;
+    text-align: -webkit-center;
+  }
+  .info {
+    flex-direction: column;
+  }
+  #About-Animix {
+    font-size: 5px;
+  }
+
+  #AboutUs {
+    margin-left: 85px;
+    text-align: center;
+  }
+  footer .fot_container .foot_sections {
+    width: 100%;
+  }
+  footer .fot_container .foot_sections h2 {
+    width: max-content;
+  }
+  footer .fot_container p {
+    width: 200%;
+  }
+
+  .copytext {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  footer .fot_container .foot_sections.About-us_foot {
+    width: 42%;
+  }
+}
+
+@media (max-width: 991px) {
+  #About-Animix {
+    font-size: 25px;
+  }
+  .info div p {
+    font-size: 13px;
+  }
+
+  .contact {
+    padding: 31px 34px;
+  }
+
+  .contact_container {
+    flex-direction: column;
+  }
+  .contact_container .contactInfo {
+    margin-bottom: 40px;
+  }
+  .contact_container .contactInfo,
+  .co_Form {
+    width: 84%;
+  }
+  .Contact .content h2 {
+    font-size: 26px;
+  }
+  .Contact .content p {
+    font-size: 13px;
+  }
+  .contact_container .contactInfo .Contact_box .co_text h2 {
+    font-size: 22px;
+  }
+  .contact_container .contactInfo .Contact_box .co_text {
+    font-size: 13px;
+  }
+  .contact_container .contactInfo .Contact_box .coIcon {
+    min-width: 41px;
+    height: 41px;
+    font-size: 16px;
+  }
+  .co_Form h2 {
+    font-size: 26px;
+  }
+
+   .imgbox{
+        width: 120px;
+    height: 120px;
+}
+  
+  .Mem-Inf h3{
+    margin: 8px 0 6px;
+    font-size: 15px;
+
+}
+.Mem-Inf p{
+    font-size: 11px;
+}
+
+
+  .Each-Member{
+      width: 30%;
+  }
+  .Main-Team{margin: 0px 41px;}
+
+}
+@media only screen and (max-width: 425px) {
+  .info {
+    height: 37%;
+  }
+}
