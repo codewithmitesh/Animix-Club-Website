@@ -49,10 +49,7 @@
   footer {
     height: 100%;
   }
-  footer .fot_container {
-    flex-wrap: initial;
-    text-align: -webkit-center;
-  }
+ 
   .info {
     flex-direction: column;
   }
