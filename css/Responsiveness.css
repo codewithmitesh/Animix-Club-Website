@@ -144,8 +144,16 @@
   .Main-Team{margin: 0px 41px;}
 
 }
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px){
   .info {
     height: 37%;
   }
+
+  
+
+
+
+
+
+
 }
