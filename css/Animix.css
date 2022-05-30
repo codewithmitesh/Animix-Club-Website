@@ -5,7 +5,6 @@
   src: url(/TheShapeOfThings-z2E0.ttf);
 }
 html {
- 
   scroll-behavior: smooth;
   /* font-family: 'Poppins', sans-serif; */
   /* font-family: 'Open Sans', sans-serif; */
@@ -750,7 +749,32 @@ footer .fot_container p {
   background: #1773ea;
 }
 .insta:hover {
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
 }
 .Linked:hover {
   background: #00557c;
@@ -823,11 +847,10 @@ footer .fot_container p {
 }
 ::-webkit-scrollbar-track {
   background-color: transparent;
-  border: 7px solid#161623;
-  
+  border: 7px solid #161623;
 }
 ::-webkit-scrollbar-thumb {
   /* background: linear-gradient(45deg,#06dee1,#79ff6c); */
-  background: linear-gradient(45deg,#eb4c36,#fff);
+  background: linear-gradient(45deg, #eb4c36, #fff);
   border-radius: 6px;
 }
