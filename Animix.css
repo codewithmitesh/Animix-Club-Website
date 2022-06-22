@@ -2,7 +2,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap"); */
 @font-face {
   font-family: Animix;
-  src: url(/TheShapeOfThings-z2E0.ttf);
+  src: url(./fonts/TheShapeOfThings-z2E0.ttf);
 }
 html {
   scroll-behavior: smooth;
@@ -83,24 +83,24 @@ nav {
 .Background {
   background-color: #272833;
   /* background-image: url(../img/tim-oun-6SBOD4ZWPjc-unsplash.jpg); */
-  background-image: url(../img/youtube\ bannerlogo.jpg);
+  background-image: url(img/bannerlogo.jpg);
   background-size: cover;
   background-blend-mode: hard-light;
   animation: slide 20s infinite linear;
 }
 @keyframes slide {
   0% {
-    background-image: url(../img/youtube\ bannerlogo.jpg);
+    background-image: url(img/bannerlogo.jpg);
     background-size: cover;
     background-blend-mode: hard-light;
   }
   33% {
-    background-image: url(../img/florian-olivo-Mf23RF8xArY-unsplash.jpg);
+    background-image: url(img/florian-olivo-Mf23RF8xArY-unsplash.jpg);
     background-size: cover;
     background-blend-mode: hard-light;
   }
   66% {
-    background-image: url(../img/hans-eiskonen-13sk8LUVwMg-unsplash.jpg);
+    background-image: url(img/hans-eiskonen-13sk8LUVwMg-unsplash.jpg);
     background-size: cover;
     background-blend-mode: hard-light;
   }
@@ -150,7 +150,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-image: url(../img/AboutBG.jpg);
+  background-image: url(img/AboutBG.jpg);
   background-attachment: fixed;
   height: 100vh;
   background-size: cover;
@@ -193,7 +193,7 @@ nav {
   margin-left: 20px;
 }
 .Animation {
-  background-image: url(../img/Animation.jpg);
+  background-image: url(img/Animation.jpg);
 }
 .Skills {
   display: flex;
@@ -265,7 +265,7 @@ nav {
   padding: 3px 5px;
 }
 .Graphic-Designing {
-  background-image: url(../img/Graphic-Designng.jpg);
+  background-image: url(img/Graphic-Designng.jpg);
 }
 .Graphic {
   border: 6px solid #eb4c36;
@@ -273,7 +273,7 @@ nav {
   border-bottom: 0;
 }
 .Game-Development {
-  background-image: url(../img/Game-Development.jpg);
+  background-image: url(img/Game-Development.jpg);
 }
 
 .Game {
@@ -283,7 +283,7 @@ nav {
   margin-left: 127%;
 }
 .ARVR-Designing {
-  background-image: url(../img/AR-VR.jpg);
+  background-image: url(img/AR-VR.jpg);
 }
 
 .ARVR {
@@ -610,7 +610,7 @@ nav {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background: url(/img/wave.png);
+  background: url(img/wave.png);
   background-size: 1000px 100px;
 }
 .wale1 {
